@@ -1,0 +1,53 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+
+#control-bar {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#music {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#load {
+  display: flex;
+  height: 100vh;
+  color: #e2e2e2;
+  font-size: 2em;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+
+#gif-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.gif {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.front {
+  z-index: 1;
+}
+
+.back {
+  z-index: 0;
+}
+
+#play-button {
+  height: 60px;
+  width: 60px;
+}
